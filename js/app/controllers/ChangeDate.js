@@ -14,5 +14,7 @@ let numeros1 = [10, 30];
 
 let avengers = ['Tony Stark', 'Steve Rogers', 'Natasha Romanoff'];
 
-console.log(...avengers.map(avengers => '\n' + avengers));
+console.log(...avengers.map(avenger => '\n' + avenger));
+
+console.log(...avengers.reverse());
 
